@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
-public class Pause : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
+    public TextMeshProUGUI slowMoButton;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -14,15 +17,11 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            Time.timeScale = 0;
-        }
+        
+    }
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            Time.timeScale = 1;
-        }
-
+    public void SlowMo()
+    {
+        slowMoButton.gameObject.SetActive(true);
     }
 }
