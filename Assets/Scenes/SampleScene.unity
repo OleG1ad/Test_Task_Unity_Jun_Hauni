@@ -1343,30 +1343,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &433380813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 433380811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5496b131bffc88443a038ce29de5f41a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &433380815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 433380811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e14ac6b40c6c1444b48c34a6806bc63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &541902950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,10 +1855,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583fa83f69bf13e498c5eeffe894977a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainSpeed: 100
-  shiftAdd: 250
-  maxShift: 1000
-  camSens: 0.25
+  mainSpeed: 1
+  shiftAdd: 5
+  maxShift: 10
+  camSens: 0.1
 --- !u!1 &1082241286
 GameObject:
   m_ObjectHideFlags: 0
