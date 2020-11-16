@@ -17,7 +17,7 @@ public class Speed : MonoBehaviour
     void OnGUI()
     {
         //Create a Label in Game view for the Slider
-        GUI.Label(new Rect(0, 25, 40, 60), "Speed");
+        GUI.Label(new Rect(0, 25, 40, 60), "Speed Animation");
         //Create a horizontal Slider to control the speed of the Animator. Drag the slider to 1 for normal speed.
 
         m_MySliderValue = GUI.HorizontalSlider(new Rect(45, 25, 200, 60), m_MySliderValue, 0.0F, 1.0F);

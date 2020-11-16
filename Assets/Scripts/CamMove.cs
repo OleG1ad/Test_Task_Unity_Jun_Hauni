@@ -26,7 +26,7 @@ public class CamMove : MonoBehaviour
     void Update()
     {
         //Mouse camera angle
-        if (Input.GetKey(KeyCode.V))
+        if (Input.GetKey(KeyCode.Mouse1))
         {
             lastMouse = Input.mousePosition - lastMouse;
             lastMouse = new Vector3(-lastMouse.y * camSens, lastMouse.x * camSens, 0);
