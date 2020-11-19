@@ -35,11 +35,11 @@ public class ColorPicker : MonoBehaviour {
 	float sizeCurr = 0;
 	float alphaGradientHeight = 16;
 
-	GUIStyle LabelStyle = null;
+	//GUIStyle LabelStyle = null;
 	int fontSize = 12;
 	Color textColor = Color.black;
 	Texture2D txColorDisplay;
-	bool mWaitForMouseOut = false;
+	//bool mWaitForMouseOut = false;
 
 	string txtR, txtG, txtB, txtA;
 	float valR, valG, valB, valA;

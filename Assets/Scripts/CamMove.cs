@@ -38,7 +38,7 @@ public class CamMove : MonoBehaviour
         // mouse zoom
         //Camera.main.fieldOfView -= Input.GetAxis("Mouse ScrollWheel") * 5;
 
-    //Keyboard commands
+        //Keyboard commands
         //space: Moves camera on X and Z axis only.  So camera doesn't gain any height
         //shift : Makes camera accelerate
         Vector3 p = GetBaseInput();
